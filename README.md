@@ -7,7 +7,8 @@ Responses from calls to the /r/news subreddit are matched against a news 'bias' 
 The current repo does not include all the pieces needed for the code to run successfully, as it is missing the database 
 and cleaned csv files. I uploaded the bare minimum to make the code run to allow the teaching team to see it work fully.
 When you first fun the code, then, you must add --init to the end of the command line (e.g. Python3 FinalProj_V4.py --init)
-This will create two other csv files and a database in your working dir.
+This will create two other csv files and a database in your working dir. This doesn't take much more than 10 seconds, 
+which is why I didn't bother uploading everything. 
 
 The code begins by cleaning a .tsv file I captured from the online database. This file is processed to clean it up as a csv and
 create 'bias' scores from the DemVote and RepVote columns. Then, I create another csv that is the aggregation of the bias 
