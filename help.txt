@@ -1,0 +1,22 @@
+
+The following prompts are available to you:
+exit:
+	This will always quit the program
+
+search:
+    What topic do you want to search for?
+    How many results do you want to see (1-100)?
+		Note: defaults to 25, even with a bad command
+    How should we sort the results (hot, top, or new)?
+		Note: defaults to 'hot', even with a bad command
+    Over what period of time (hour, day, week, month, year, or all)?
+		Note: defaults to 'all', even with a bad command
+    
+graph:
+    You can always graph bias_data
+	If there's an active data set, you have the following options:
+		scores - graphs post scores agains bias data
+		comments - graphs number of comments on a post against bias data
+		outlets - shows you where people are posting news articles from
+		If you didn't mean to graph your data, type "break" to make a new search.
+		
